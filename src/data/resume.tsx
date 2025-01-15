@@ -2,11 +2,11 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Hrithik Roy",
+  name: "Saurabh Sonkar",
   initials: "HR",
-  url: "https://github.com/DevHrithik",
-  location: "Kolkata, India",
-  locationLink: "https://www.google.com/maps/place/kolkata",
+  url: "https://github.com/saurabhssonkar",
+  location: "UP, India",
+  locationLink: "https://www.google.com/maps/place/UP",
   description:
     "Tech Enthusiast turned Software Engineer . I love building things and helping people. Very active on Twitter.",
   summary:
@@ -50,39 +50,42 @@ export const DATA = {
     },
   ],
   contact: {
-    email: "hrithikroy1854@gmail.com",
+    email: "saurabhssonkar@gmail.com",
     tel: "+91 9749727619",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/DevHrithik",
+        url: "https://github.com/saurabhssonkar",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/devhrithik",
+        // url: "https://linkedin.com/in/devhrithik",
+        url:"",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/Hrithikstwts",
+        // url: "https://x.com/Hrithikstwts",
+        url:'',
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        // url: "https://dub.sh/dillion-youtube",
+        url:'',
         icon: Icons.youtube,
         navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "mailto:hrithikroy1854@gmail.com",
+        url: "mailto:saurabhssonkar@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -106,7 +109,7 @@ export const DATA = {
     {
       company: "Open Source",
       badges: [],
-      href: "https://github.com/DevHrithik",
+      href: "",
       location: "Remote",
       title: "Contributor",
       logoUrl: "/github-mark.png",
@@ -119,12 +122,12 @@ export const DATA = {
   education: [
     
     {
-      school: "Jadvapur University, India",
-      href: "https://jadavpuruniversity.in/",
+      school: "Dr. A.P.J. Abdul Kalam Technical University, India",
+      href: "https://aktu.ac.in/",
       degree: "Bachelor's Degree of Engineering",
       logoUrl: "/jadavpur.png",
-      start: "2022",
-      end: "2026",
+      start: "2018",
+      end: "2022",
     },
   ],
   projects: [
