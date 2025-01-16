@@ -8,50 +8,43 @@ export const DATA = {
   location: "UP, India",
   locationLink: "https://www.google.com/maps/place/UP",
   description:
-    "Tech Enthusiast turned Software Engineer . I love building things and helping people. Very active on Twitter.",
+    "Tech Enthusiast turned Software Engineer. I really enjoy learning new tech. I love building things and helping people.",
   summary:
-    "I’m a passionate [pre-final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
+    "I’m a full stack developer with  1.5+ years of experience a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) . Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
   avatarUrl: "/hrithik.jpeg",
   skills: [
     "React",
     "Next.js",
-    "Javascript",
     "Typescript",
+    "Javascript",
     "Node.js",
-    "Go",
     "Git",
     "MongoDB",
     "Postgres",
     "Docker",
-    "Kubernetes",
     "Linux",
     "GitHub Actions",
     "Prisma",
-    "Drizzle",
     "MonoRepo",
     "WebSocket",
     "WebRTC",
     "Kafka",
     "Redis",
-    "GraphQL",
     "Nginx",
-    "AWS",
     "CI/CD",
-    "Grafana",
-    "Prometheus",
     "OpenAPI",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {
-      href: "https://devhrithik.hashnode.dev",
-      icon: NotebookIcon,
-      label: "Blog",
-    },
+    // {
+    //   href: "https://devhrithik.hashnode.dev",
+    //   icon: NotebookIcon,
+    //   label: "Blog",
+    // },
   ],
   contact: {
     email: "saurabhssonkar@gmail.com",
-    tel: "+91 9749727619",
+    tel: "+91 9076578103",
     social: {
       GitHub: {
         name: "GitHub",
@@ -62,16 +55,14 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        // url: "https://linkedin.com/in/devhrithik",
-        url:"",
+        url:"https://www.linkedin.com/in/saurabh-sonkar/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        // url: "https://x.com/Hrithikstwts",
-        url:'',
+        url:'https://x.com/Sau55843Sonkar',
         icon: Icons.x,
 
         navbar: true,
@@ -132,88 +123,61 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "AI Landing Page",
-      href: "https://ai-landing-page-eta.vercel.app",
+      title: "Snakes and Ladders Game",
+      href: "https://snake-ladder-game-eight.vercel.app/",
       dates: "September 2024",
       active: true,
       description:
         "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
       technologies: [
-        "Next.js",
         "ReactJS",
-        "Typescript",
         "TailwindCSS",
-        "Shadcn UI",
+        "Node js",
+        "Postrgess",
+        "Mysql",
+        "Radis",
+        "Web Socket"
       ],
       links: [
         {
           type: "Website",
-          href: "https://ai-landing-page-eta.vercel.app",
+          href: "https://snake-ladder-game-eight.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/DevHrithik/AI-Landing_Page",
+          href: "https://github.com/saurabhssonkar/Snake-Ladder/tree/main",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/AI_Landing-Page.png",
       video: "",
     },
+  
     {
-      title: "CRM Dashboard",
-      href: "https://crm-dashboard-v1.vercel.app",
-      dates: "September 2024",
-      active: true,
-      description:
-        "This CRM dashboard, built using Next.js, React.js, Tailwind CSS, Shadcn, Prisma, and Postgres, integrates the latest features to streamline customer relationship management. It offers a sleek, user-friendly interface, real-time data management, and powerful backend capabilities, providing a complete solution for efficient and organized business operations.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://crm-dashboard-v1.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/DevHrithik/CRM_Dashboard-v1",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/CRM-Dashboard.png",
-      video: "",
-    },
-    {
-      title: "TodoListAI",
-      href: "https://todolistai.vercel.app",
+      title: "LMS",
+      href: "https://lmsnotionstudy.vercel.app/",
       dates: "September 2024",
       active: true,
       description:
         "This Todoist clone replicates all the core features of the popular task management app, offering a seamless and intuitive experience for organizing tasks, setting priorities, and tracking progress. Designed with a user-friendly interface, it enables efficient task management for individuals and teams alike.",
       technologies: [
-        "Next.js",
-        "Typescript",
+        "React js",
         "TailwindCSS",
-        "Shadcn UI",
-        "OpenAI API",
-        "Convex",
+        "Node js",
+        "Mongodb",
+        "JWT",
+        "RazorPay"
       ],
       links: [
         {
           type: "Website",
-          href: "https://todolistai.vercel.app",
+          href: "https://lmsnotionstudy.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/DevHrithik/TodoListAI",
+          href: "https://github.com/saurabhssonkar/Education-Tech-Course",
           icon: <Icons.github className="size-3" />,
         },
       ],

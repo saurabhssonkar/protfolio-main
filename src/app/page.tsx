@@ -20,8 +20,8 @@ export default function Page() {
         <div className="max-w-4xl space-y-6">
           {/* Text Content */}
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
-            {/* Hi, I'm {DATA.name.split(" ")[0]} 👋 */}
-            Hi, I'm Saurabh Sonkar  👋
+            Hi, I'm {DATA.name} 👋
+            {/* Hi, I'm Saurabh Sonkar  👋 */}
 
           </h1>
           <p className="text-lg md:text-xl font-medium leading-relaxed">
@@ -77,6 +77,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <WorkExperienceSection />
 
       <section
         id="skills"
@@ -105,7 +106,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <WorkExperienceSection />
+      
 
       <section id="education" className="py-12 ">
         <div className="container mx-auto px-6 lg:px-12 ">
