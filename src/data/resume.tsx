@@ -11,7 +11,7 @@ export const DATA = {
     "Tech Enthusiast turned Software Engineer. I really enjoy learning new tech. I love building things and helping people.",
   summary:
     "I’m a full stack developer with  1.5+ years of experience a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) . Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
-  avatarUrl: "/hrithik.jpeg",
+  avatarUrl: "/Profiel.png",
   skills: [
     "React",
     "Next.js",

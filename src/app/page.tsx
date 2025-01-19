@@ -33,11 +33,12 @@ export default function Page() {
         {/* Hero Image */}
         <div className="relative flex-shrink-0">
           <div className="relative w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-xl ring-4 ring-white dark:ring-gray-800">
-            {/* <img
+            <img
             src={DATA.avatarUrl}
             alt={DATA.name}
-            className="object-cover w-full h-full"
-          /> */}
+            className=" w-full h-full"
+          />
+          <p>ededd</p>
             <div className="absolute bottom-0 right-0 bg-green-500 h-4 w-4 rounded-full border-2 border-white dark:border-gray-800"></div>
           </div>
         </div>
