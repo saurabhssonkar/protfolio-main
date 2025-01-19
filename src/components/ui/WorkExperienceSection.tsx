@@ -15,7 +15,7 @@ const WorkExperienceSection = () => {
   return (
     <section
       id="work-experience"
-      className="py-12 px-6 text-justify "
+      className="py-12 px-6  "
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}

@@ -14,31 +14,31 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10  text-justify dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+    <main className="flex flex-col min-h-[100dvh] space-y-10   dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-between px-6 py-12 md:py-16 lg:py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-b-3xl shadow-lg  ">
-        <div className="max-w-4xl space-y-6">
+      <section className="relative flex items-center justify-between md:px-6 px-2 py-12 md:py-16 lg:py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-b-3xl shadow-lg  ">
+        <div className="max-w-4xl space-y-3">
           {/* Text Content */}
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
             Hi, I'm {DATA.name} 👋
             {/* Hi, I'm Saurabh Sonkar  👋 */}
 
           </h1>
-          <p className="text-lg md:text-xl font-medium leading-relaxed">
+          <p className="text-lg md:text-xl w-full font-medium leading-relaxed">
             {DATA.description}
           </p>
 
         </div>
 
         {/* Hero Image */}
-        <div className="relative flex-shrink-0">
+        <div className="relative flex-shrink-0 ">
           <div className="relative w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-xl ring-4 ring-white dark:ring-gray-800">
             <img
             src={DATA.avatarUrl}
             alt={DATA.name}
-            className=" w-full h-full"
+            className="w-full h-full"
           />
-          <p>ededd</p>
+          
             <div className="absolute bottom-0 right-0 bg-green-500 h-4 w-4 rounded-full border-2 border-white dark:border-gray-800"></div>
           </div>
         </div>
