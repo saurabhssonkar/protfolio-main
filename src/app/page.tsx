@@ -14,7 +14,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10 dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+    <main className="flex flex-col min-h-[100dvh] space-y-10  text-justify dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
       {/* Hero Section */}
       <section className="relative flex items-center justify-between px-6 py-12 md:py-16 lg:py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-b-3xl shadow-lg  ">
         <div className="max-w-4xl space-y-6">
@@ -45,9 +45,9 @@ export default function Page() {
 
       <section
         id="about"
-        className="py-10 px-6 rounded-lg  bg-gray-50 dark:bg-gray-900  shadow-md"
+        className=" w-full py-10 px-6 rounded-lg   shadow-sm"
       >
-        <div className="max-w-6xl  mx-auto space-y-8 ">
+        <div className="w-full  mx-auto space-y-8 px-6 ">
           {/* Section Header */}
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 dark:text-white text-center">
@@ -81,7 +81,7 @@ export default function Page() {
 
       <section
         id="skills"
-        className="py-12 px-6 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 border rounded-lg shadow-lg"
+        className="py-12 px-6 dark:to-gray-800  rounded-lg "
       >
         <div className="max-w-5xl mx-auto space-y-8">
           {/* Section Header */}
@@ -98,7 +98,7 @@ export default function Page() {
           <div className="flex flex-wrap justify-center gap-4">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <div className="px-4 py-2 bg-indigo-600 text-white text-sm md:text-base font-medium rounded-full shadow-md hover:scale-105 transition transform">
+                <div className="px-4 py-2 text-xs font-medium text-green-700 bg-blue-50 border border-green-300 rounded-lg hover:scale-105 transition transform">
                   {skill}
                 </div>
               </BlurFade>
@@ -155,7 +155,7 @@ export default function Page() {
       </section>
 
       <section id="projects">
-        <div className=" space-y-12 w-full py-12">
+        <div className=" space-y-12  w-full py-12 ">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -173,7 +173,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="max-w-[1100px] mx-auto flex flex-col gap-10">
+          <div className="w-full px-8  mx-auto flex flex-col gap-10">
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}

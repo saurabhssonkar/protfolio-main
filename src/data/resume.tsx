@@ -55,14 +55,14 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url:"https://www.linkedin.com/in/saurabh-sonkar/",
+        url: "https://www.linkedin.com/in/saurabh-sonkar/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url:'https://x.com/Sau55843Sonkar',
+        url: 'https://x.com/Sau55843Sonkar',
         icon: Icons.x,
 
         navbar: true,
@@ -70,7 +70,7 @@ export const DATA = {
       Youtube: {
         name: "Youtube",
         // url: "https://dub.sh/dillion-youtube",
-        url:'',
+        url: '',
         icon: Icons.youtube,
         navbar: false,
       },
@@ -86,32 +86,83 @@ export const DATA = {
 
   work: [
     {
-      company: " Edumitram Pvt Ltd",
-      href: "",
-      badges: [],
-      location: "Remote",
-      title: "Full Stack Developer",
-      logoUrl: "/memoji.jpeg",
-      start: "2024",
-      end: "Present",
-      description:
-      " Developed a comprehensive Learning Management System (LMS) featuring school creation, user management, course management, live classes, and MCQ features. Uploaded the recorded lectures"
+      company: "Edumitram Private Limited",
+      period: "June 2023 - Present",
+      project: "Hem Aunty Publications",
+      link: "https://hemaunty.org",
+      description: [
+        "Contributed to the development of a robust e-book platform as part of a corporate initiative, featuring an intuitive admin panel, categorized book listings, secure online payment integration via Razorpay API, and support for over 1,000 daily active users. Delivered a scalable and secure solution that facilitated seamless transactions, resulting in 100+ monthly sales. Enhanced user experience and supported business growth through efficient platform design and implementation aligned with organizational objectives.",
+      ],
+      technologies: [
+        "React",
+        "Tailwindcss",
+        "Node.js",
+        "PostgresSQL",
+        "Typescript",
+        "Redux",
+        "Razorpay API"
+      ],
     },
     {
-      company: "Open Source",
-      badges: [],
-      href: "",
-      location: "Remote",
-      title: "Contributor",
-      logoUrl: "/github-mark.png",
-      start: "2023",
-      end: "Present",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      // company: "SOCIETY - RADHI ADDA",
+      // title: "Full Stack Developer",
+      // period: "Aug 2022 - Dec 2022",
+      project: "Society Management Web App",
+      link: "https://radhiadda.com",
+      description: [
+        "Contributed to the development of a scalable society management web application as part of a corporate project. Key features included secure user authentication, an integrated messaging system, and a multimedia gallery. Additionally, implemented advanced modules such as secure registration, a family tree module, and a matrimony feature with comprehensive profile management controls, delivering a user-centric and functional solution tailored to community needs.",
+      ],
+      technologies: [
+        "React",
+        "Tailwindcss",
+        "Node.js",
+        "PostgresSQL",
+        "Typescript",
+        "Redux"
+      ],
+    },
+    {
+      
+      // period: "June 2023 - Present",
+      project: "LMS (Learning Management System)",
+      link: "https://educrafter.edumitram.com",
+      description: [
+        // "Developed a comprehensive Learning Management System (LMS) featuring school creation, user management, course management, live classes, and MCQ features. Uploaded recorded lectures to enhance student engagement.",
+        // ,
+
+        "Contributed to the development of a comprehensive Learning Management System (LMS) as part of a corporate project, designed to address diverse educational requirements. The platform included advanced features such as multi-school management, role-based access control, detailed course administration, live interactive classes,rich-text-editor and a robust MCQ module. Additionally, implemented functionality for uploading and managing recorded lectures, significantly enhancing student engagement, accessibility, and the overall user experience. This scalable and user-focused solution facilitated seamless collaboration between educators and learners while aligning with organizational goals."
+      ],
+      technologies: [
+        "React",
+        "Tailwindcss",
+        "Node.js",
+        "PostgresSQL",
+        "Typescript",
+      ],
+    },
+   
+   
+    {
+      // company: "Gamification",
+      // title: "Frontend",
+      // period: "Aug 2022 - Dec 2022",
+      project: "Gamified Quiz",
+      description: [
+        "Contributed to the development of a gamified MCQ quiz application for children as part of a corporate project, utilizing Angular 16, SOAP API, MySQL, and Bootstrap. The application featured a hierarchical structure, support for single and multi-selection MCQs, dynamic result report generation, and a score-based level unlocking system. Delivered an engaging and interactive user experience, aligned with the project’s educational and entertainment goals."
+
+      ],
+      technologies: [
+        "ASP.Net Core",
+        "Soap Api",
+        "MySQL",
+        "Typescript",
+        "Bootstrap",
+        "Angular 16",
+      ],
     },
   ],
   education: [
-    
+
     {
       school: "Dr. A.P.J. Abdul Kalam Technical University, India",
       href: "https://aktu.ac.in/",
@@ -128,7 +179,7 @@ export const DATA = {
       dates: "September 2024",
       active: true,
       description:
-        "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
+        "Developed an engaging online multiplayer game featuring advanced matchmaking capabilities, group chat functionality, real-time player count tracking, global chat, and seamless friend request interactions between users. This project combines real-time communication with smooth gameplay mechanics, enhancing user experience and fostering a dynamic online gaming community. Through careful design and implementation, the platform supports both social interactions and competitive play, ensuring a highly immersive and interactive environment for players.",
       technologies: [
         "ReactJS",
         "TailwindCSS",
@@ -153,14 +204,14 @@ export const DATA = {
       image: "/AI_Landing-Page.png",
       video: "",
     },
-  
+
     {
-      title: "LMS",
+      title: "Studynotion",
       href: "https://lmsnotionstudy.vercel.app/",
       dates: "September 2024",
       active: true,
       description:
-        "This Todoist clone replicates all the core features of the popular task management app, offering a seamless and intuitive experience for organizing tasks, setting priorities, and tracking progress. Designed with a user-friendly interface, it enables efficient task management for individuals and teams alike.",
+        "Developed a dynamic educational platform that streamlines student registration, course purchases, and content navigation, with integrated Razorpay API for secure online payments. Empowered instructors with intuitive tools to create, organize, and manage courses, sections, and lectures, providing a seamless experience for both educators and learners. This platform effectively combines user-friendly design with robust functionality, enhancing the learning experience while ensuring secure and efficient payment processing.",
       technologies: [
         "React js",
         "TailwindCSS",
@@ -228,4 +279,4 @@ export const DATA = {
       ],
     },
   ],
-} as const;
+};
